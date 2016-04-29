@@ -2,7 +2,7 @@ def print_buckets(buckets, ordered_place):
     """print_buckets: array, int -> 
     Purpose: prints the contents of a 2D array representing the buckets of a radix sort algorithm
     Consumes: buckets - an array of int arrays, where the xth int array contains all integers with the digit x at ordered_place
-              ordered_place: a power of 10 representing the current place that the integers have been sorted on. 
+              ordered_place - a power of 10 representing the current place that the integers have been sorted on
     Produces: nothing
     """
     index_string = '| '
